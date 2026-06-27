@@ -9,6 +9,7 @@ import { PersonalProjects, SelectCompaniesProjects } from "./data";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Project } from "./type";
 
 const ProjectDetailComponent = () => {
   const params = useSearchParams();
@@ -18,7 +19,7 @@ const ProjectDetailComponent = () => {
 
   if (!project) return notFound();
 
-  const images = (project as any).images || [];
+  const images = (project as Project).images || [];
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12 text-white">
@@ -64,6 +65,7 @@ const ProjectDetailComponent = () => {
             navigation
             pagination={{ clickable: true }}
             autoplay={{ delay: 3000 }}
+            
             className="h-64 md:h-96"
           >
             {images.map((img: string, i: number) => (
@@ -97,7 +99,6 @@ const ProjectDetailComponent = () => {
         </p>
       </div>
 
-      {/* بقیه محتوا (Achievements) */}
       <div className="mt-16 space-y-6">
         <h2 className="text-2xl font-bold">Engineering Achievements</h2>
 

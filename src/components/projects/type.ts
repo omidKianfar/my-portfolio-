@@ -8,7 +8,7 @@ type Project = {
   githubUrl?: { link: string } | null;
   category: "Personal" | "Company";
   myRole?: string;
-  image?: string[] | null;
+  images?: string[] | null;
   techStack?: string[];
 };
 

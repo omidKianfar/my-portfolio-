@@ -24,3 +24,15 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 15px !important;
+  font-weight: bold;
+}

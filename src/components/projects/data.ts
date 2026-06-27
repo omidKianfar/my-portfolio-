@@ -34,7 +34,15 @@ const PersonalProjects = [
     ],
     myRole:
       "Owned the full-cycle development of a sophisticated SaaS application, bridging advanced client-side media processing with complex real-time collaborative state management to deliver a professional-grade project management experience",
-    image: [""],
+    images: [
+      "/images/next-mini-jira/user-dashboard.png",
+      "/images/next-mini-jira/Kanban.png",
+      "/images/next-mini-jira/payment.png",
+      "/images/next-mini-jira/admin-edit-support-message.png",
+      "/images/next-mini-jira/upload-file.png",
+      "/images/next-mini-jira/upload-voice.png",
+      "/images/next-mini-jira/admin-dashboard.png",
+    ],
     techStack: [
       "Next.js",
       "TypeScript",
@@ -93,7 +101,10 @@ const PersonalProjects = [
     ],
     myRole:
       "Spearheaded the development of a complex scheduling dashboard, bridging raw Google Calendar API data with a seamless user-facing interface, while ensuring data integrity and optimizing the application for real-time calendar synchronization",
-    image: [""],
+    images: [
+      "/images/next-google-calendar/image.png",
+      "/images/next-google-calendar/image-4.png",
+    ],
     techStack: [
       "Next.js",
       "TypeScript",
@@ -165,7 +176,7 @@ const SelectCompaniesProjects = [
       },
     ],
     myRole: "Front-end Architect & Lead Developer",
-    image: null,
+    images: null,
     techStack: [
       "Next.js",
       "TypeScript",
@@ -234,7 +245,7 @@ const SelectCompaniesProjects = [
       },
     ],
     myRole: "Front-end Architect & Lead Developer",
-    image: null,
+    images: null,
     techStack: [
       "Next.js",
       "TypeScript",
